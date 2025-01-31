@@ -1,119 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="Portfolio.css">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ayush Karun</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+  <title>Ayush Karun | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="Portfolio.css">
 </head>
-    
+
 <body>
+  <header>
+    <h1>I'm Ayush Karun</h1>
+    <p>A Software Engineer and Swing Trader</p>
+  </header>
 
-    <header>
-        <h1 style="font-size:100px;">I'm Ayush Karun</h1>
-    </header>
-<!-- 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav> -->
+  <nav class="text-center">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <div class="container">
-        <section id="about" class="section">
-            <img src="./Asset/p.jpeg" class="img-fluid" alt="Ayush k"  >
-            <h2 style="color:rgb(255, 255, 255);">About Me</h2>
-            <p style="color:rgb(255, 255, 255);" >Hello! I'm a driven professional with a dual focus: a part-time swing trader in the equity segment and a software engineer with
-                experience in MSSQL. Over the past year, I have honed my technical skills as a Software Engineer Trainee, specializing
-                in database management and optimization using MSSQL. This experience has equipped me with a foundation in problem-solving and system efficiency.
-                
-                In parallel, my interest in the financial markets led me to pursue swing trading, where I apply analytical and strategic
-                thinking to identify profitable opportunities. This dual expertise reflects my adaptability and passion for learning
-                across domains.
-                
-                I'm excited to connect with like-minded professionals and explore opportunities that leverage my skills in technology
-                and finance. Let's collaborate to create impactful solutions!.</p>
-        </section>
+  <div class="container">
+    <section id="about" class="section">
+      <img src="./Asset/p.jpeg" class="img-fluid" alt="Ayush Karun">
+      <h2>About Me</h2>
+      <p>Hello! I'm a driven professional with a dual focus: a part-time swing trader in the equity segment and a software engineer with experience in MSSQL. Over the past year, I have honed my technical skills as a Software Engineer Trainee, specializing in database management and optimization using MSSQL. This experience has equipped me with a foundation in problem-solving and system efficiency.</p>
+      <p>In parallel, my interest in the financial markets led me to pursue swing trading, where I apply analytical and strategic thinking to identify profitable opportunities. I'm excited to connect with like-minded professionals and explore opportunities that leverage my skills in technology and finance.</p>
+    </section>
 
-        <section id="projects" class="section">
-            <h2 style="color:rgb(255, 255, 255);">Experience</h2>
-            <div class="projects">
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card p-3">
+            <h5>Geojit Technologies</h5>
+            <p>Software Engineer Trainee (MSSQL) <br> Aug 2022 - Jul 2023 | Kochi</p>
+            <ul>
+              <li>Worked as an MSSQL developer for project Spice, a trading back-office application.</li>
+              <li>Designed and implemented database tables and stored procedures.</li>
+              <li>Performed database maintenance tasks and resolved performance issues.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card p-3">
+            <h5>Education</h5>
+            <p><strong>BCA (Data Analytics)</strong> - 7.9 CGPA <br> Jain University, Bangalore</p>
+            <p><strong>+2 (Computer Science)</strong> <br> St. Michael's Anglo-Indian H.S.S, Kerala</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <div class="project">
-                    <h3><u>Experience</u></h3>
-                    <p><b>Geojit Technologies</b>
-                        <br>
-                        Software Engineer Trainee (MSSQL)
-                        <br>
-                        08/2022 – 07/2023 | Kochi
-                        <br>
-                        Worked as a MSSQL developer for project Spice which is a
-                        trading back-office application of GFSL which handles client
-                        on-boarding to clearing and settlement operations.
-                        <br>
-                        •Designing and implementing database tables, stored
-                        procedures and functions according to project requirements.
-                        <br>
-                        •Writing SQL queries and stored procedures to ensure fast
-                        query performance.
-                        •Performing database maintenance tasks such as backups.
-                        •Identifying and resolving performance issues by analyzing
-                        query
-                        •Working closely with other team members such as software
-                        developers, system administrators, and business analysts to
-                        ensure seamless integration of applications with databases.
-                        •Learning more about SQL Server and database technologies
-                        through self-learning and training opportunities.
-                        </p>
-                        <br>                  
-BCA (DATA ANALYTICS) - 7.9 CGPA
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out via email or connect with me on LinkedIn!</p>
+      <p>Email: <a href="mailto:ayushkarun2580@gmail.com">ayushkarun2580@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ayushkarun" target="_blank">linkedin.com/in/ayushkarun</a></p>
+    </section>
+  </div>
 
-2019 – 2022
+  <footer>
+    <p>&copy; 2025 Ayush Karun. All Rights Reserved.</p>
+    <p>Built with Bootstrap and Passion!</p>
+  </footer>
 
-Jain University School of commerce,
-
-Bangalore, Karnataka.
-                        <br>
-+2 (COMPUTER SCIENCE)
-
-2017 – 2019
-
-St. Michael’s Anglo-Indian H.S.S, Kerala.
-                        <br>
-Certificates
-1.Python Data Analysis
-Linkedin
-3.Develop Your Data Analysis Skills
-Linkedin
-2.HTML Essential Training
-Linkedin
-4.TCS ion NQT - 70.38%
-TCS
-
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section">
-            <h2 style="color:rgb(255, 255, 255);">Contact Me</h2>
-            <p style="color:rgb(255, 255, 255);" >You can reach me at <a href="mailto:ayushkarun2580@gmail.com">ayushkarun2580@gmail.com</a>.</p>
-        </section>
-    </div>
-
-    <footer>
-        <p>&copy; 2024 Ayush Karun. All Rights Reserved.</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
-
